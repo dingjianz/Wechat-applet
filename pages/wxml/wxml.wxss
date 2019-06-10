@@ -1,0 +1,6 @@
+/* pages/wxml/wxml.wxss */
+.view-class {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}

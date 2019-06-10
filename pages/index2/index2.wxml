@@ -1,0 +1,5 @@
+<!-- 遍历数组 -->
+<view wx:for="{{arr}}" wx:key="{{item}}">{{index}} : {{item}}</view>
+<!-- 遍历对象 -->
+<view wx:for="{{person}}" wx:key="{{index}}">{{index}} : {{item}}</view>
+<view wx:for="{{person}}" wx:key="{{index}}" wx:for-index="keyName">{{keyName}} : {{item}}</view>

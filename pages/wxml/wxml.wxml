@@ -1,0 +1,14 @@
+<!--pages/wxml/wxml.wxml-->
+<view>{{msg}}</view>
+
+<text>person.name: {{person.name}}</text>
+<view>person.age: {{person.age}}</view>
+<view>
+  <checkbox checked="{{checkedFlag}}"></checkbox>
+
+  <view class="view-class" hidden="{{checkedFlag ? true : false}}">11</view>
+    
+  <view class="view-class" wx:if="{{checkedFlag ? true : false}}">22</view>
+    
+    
+</view>
