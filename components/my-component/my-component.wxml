@@ -1,0 +1,6 @@
+<view class="custom-component">
+  {{proData}}
+  {{myMsg}}
+  <slot></slot>
+</view>
+    

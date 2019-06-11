@@ -1,0 +1,7 @@
+.lg-color {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: aqua;
+  color:blue;
+  font-size: 20px;
+}

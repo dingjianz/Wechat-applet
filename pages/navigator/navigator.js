@@ -1,4 +1,4 @@
-// pages/dj/dj.js
+// pages/navigator/navigator.js
 Page({
 
   /**
@@ -7,47 +7,62 @@ Page({
   data: {
 
   },
-
+  test() {
+    wx.navigateTo({
+      url: '../index4/index4',
+      success(res){ // success
+        console.log(res)
+      },
+      fail() { // fail
+      },
+      complete() { // complete
+      }
+    })
+    console.log(11)
+  },
+  test2() {
+    console.log(2222)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('onload')
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('onReady')
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log('onShow')
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log('onHide')
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log('onUnload')
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    console.log('onPullDownRefresh')
   },
 
   /**
@@ -61,6 +76,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    console.log('onShareAppMessage')
+
   }
 })

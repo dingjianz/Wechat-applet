@@ -1,0 +1,4 @@
+<!--pages/custom-componen/custom-component.wxml-->
+<myComponent>
+  <text>222</text>
+</myComponent>
