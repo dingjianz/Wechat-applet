@@ -1,0 +1,7 @@
+.custom-component {
+  color:red;
+  background-color: yellow;
+  width: 440rpx;
+  height: 100rpx;
+  margin: 0 auto;
+}

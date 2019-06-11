@@ -1,0 +1,30 @@
+<button type="default" bindtap="primary">
+  点我
+</button>
+<button type="warn" bindtap="test">
+  点我
+</button>
+<text bindtap="test" bindlongpress="test2">
+  文本
+</text>
+
+
+<!-- 保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。使用 wx.navigateBack 可以返回到原页面。小程序中页面栈最多十层， 对应 wx.navigateTo 或 wx.navigateToMiniProgram 的功能 -->
+<navigator url="../index4/index4" hover-class="navigator-hover" open-type="navigate">跳转至swiper，保留当前页面</navigator>
+  
+<!-- 关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页， 对应 wx.redirectTo 的功能 -->
+<navigator url="../index4/index4" hover-class="navigator-hover" open-type="redirect">跳转至swiper，关闭当前页面</navigator>
+  
+<!-- 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面，对应 wx.switchTab 的功能 -->
+<navigator url="../dj/dj" hover-class="navigator-hover" open-type="switchTab" style="font-size:30rpx;">跳转至tabBar页面，关闭其他所有非tabBar页面</navigator>
+  
+<!-- 关闭所有页面，打开到应用内的某个页面, 对应 wx.reLaunch 的功能 -->
+<navigator url="../dj/dj" hover-class="navigator-hover" open-type="reLaunch">跳转至任意某个页面，关闭所有页面</navigator>
+
+<!-- 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages 获取当前的页面栈，决定需要返回几层。对应 wx.navigateBack 的功能 -->
+<navigator url="../dj/dj" hover-class="navigator-hover" open-type="navigateBack">navigateBack</navigator>
+
+<!-- 退出小程序 -->
+<navigator url="../index4/index4" hover-class="navigator-hover" open-type="exit">退出小程序</navigator>
+  
+  

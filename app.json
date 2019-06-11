@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/custom-componen/custom-component",
+    "pages/video/video",
+    "pages/navigator/navigator",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/dj/dj",
     "pages/index2/index2",
     "pages/wxml/wxml",
     "pages/index/index",
-    "pages/dj/dj",
     "pages/logs/logs"
   ],
   "window": {

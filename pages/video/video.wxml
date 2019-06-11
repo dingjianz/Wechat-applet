@@ -1,0 +1,3 @@
+<video src="{{myUrl}}" controls danmu-btn style="width:100%;height:300px;" autoplay="{{autoPlay}}"></video>
+<button bindtap="autoplayHandle">自动播放</button>
+{{autoPlay}}
